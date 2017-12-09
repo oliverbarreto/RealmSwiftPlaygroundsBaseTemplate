@@ -36,6 +36,7 @@ end
 
 or you can simply download this [RealmSwift Playgrounds Template Project](https://github.com/oliverbarreto/RealmSwiftPlaygroundsBaseTemplate)
 
+
 ## Using the RealmStudio application with local data in playgrounds 
 To use the Realm Studio with the playgrounds you need to open the Realm file that is stored in a weird place by Xcode Playgrounds. To find out where it actually is just add this to the play ground:
 

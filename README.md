@@ -36,3 +36,16 @@ end
 
 or you can simply download this [RealmSwift Playgrounds Template Project](https://github.com/oliverbarreto/RealmSwiftPlaygroundsBaseTemplate)
 
+## Using the RealmStudio
+To use the Realm Studio with the playgrounds you need to open the Realm file that is stored in a weird place by Xcode Playgrounds. To find out where it actually is just add this to the play ground:
+
+```swift
+let realm = try! Realm()
+print(Realm.Configuration.defaultConfiguration.fileURL)
+```
+
+Then (since I haven't been able to find a way to fin the /var/folders/..., even turning on show hidden files on terminal): 
+1. Copy the URL and open in Finder with `SHIFT + CMD G`
+2. Create an Alias and move it to a common place like the desktop
+3. Then open the alias location in RealmStudio open file... 
+... and voila 😎 Enjoy !!!
